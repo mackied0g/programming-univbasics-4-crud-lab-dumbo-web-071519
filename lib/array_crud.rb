@@ -18,12 +18,12 @@ end
 
 def remove_element_from_end_of_array(array)
   array = "arrays!"
-  array.slice
+  array.slice()
 end
 
 def remove_element_from_start_of_array(array)
   array = [1,2,3]
-  array.shift("wow")  
+  array.shift()  
 end
 
 def retrieve_element_from_index(array, index_number)
